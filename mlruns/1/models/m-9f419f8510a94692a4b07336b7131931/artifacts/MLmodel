@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/admin/spring_18_Capstone_project/mlruns/1/models/m-9f419f8510a94692a4b07336b7131931/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.8
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-9f419f8510a94692a4b07336b7131931
+model_size_bytes: 16730
+model_uuid: m-9f419f8510a94692a4b07336b7131931
+prompts: null
+run_id: 129f26efe4b64e88abc50c19f5ed80ef
+utc_time_created: '2026-06-27 09:37:07.613255'
