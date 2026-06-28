@@ -1,0 +1,19 @@
+# Local environment files (API keys)
+.env
+
+# MLflow tracking folders and artifacts
+mlruns/
+mlartifacts/
+
+# Python caching and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Data and model binaries
+data/
+*.csv
+*.pkl
+*.h5
